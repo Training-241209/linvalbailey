@@ -1,0 +1,5 @@
+TypeScript is a superset of JavaScript therefore JavaScript syntax is legal TypeScript. TypeScript checks a program for errors before execution based on the kinds of values, making it a static type checker.
+
+TypeScript also preserves the runtime behavior of JavaScript. For example, dividing by zero in JavaScript produces Infinity instead of throwing a runtime exception. As a principle, TypeScript never changes the runtime behavior of JavaScript code. 
+
+TypeScript can catch bugs when we make mistakes in our code, but it can also prevent us from making those mistakes in the first place. The type-checker has information to check things like whether we’re accessing the right properties on variables and other properties. Once it has that information, it can also start suggesting which properties you might want to use. That means TypeScript can be leveraged for editing code, and the core type-checker can provide error messages and code completion as you type in the editor.
